@@ -32,7 +32,9 @@ router.get('/:id', async (req, res) => {
         const id = req.params.id;
 
         // Task 3: Find a specific gift by ID using the collection.fineOne method and store in constant called gift
-        const gift = await collection.findOne({ _id: id });
+        // const gift = await collection.findOne({ id: parseInt(id) });
+        const query = { id: { $in: [id, parseInt(id)] } };
+        const gift = await collection.findOne(query);
 
         if (!gift) {
             return res.status(404).send('Gift not found');
