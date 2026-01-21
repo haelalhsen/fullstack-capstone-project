@@ -8,13 +8,13 @@ The application utilizes a microservices architecture, separating the frontend, 
 
 ## Table of Contents
 
-- [Key Features](https://www.google.com/search?q=%23key-features)
-- [Architecture & Tech Stack](https://www.google.com/search?q=%23architecture--tech-stack)
-- [Directory Structure](https://www.google.com/search?q=%23directory-structure)
-- [Setup & Installation](https://www.google.com/search?q=%23setup--installation)
-- [API Documentation](https://www.google.com/search?q=%23api-documentation)
-- [Frontend Components](https://www.google.com/search?q=%23frontend-components)
-- [DevOps & Deployment](https://www.google.com/search?q=%23devops--deployment)
+- [Key Features](#key-features)
+- [Architecture & Tech Stack](#architecture--tech-stack)
+- [Directory Structure](#directory-structure)
+- [Setup & Installation](#setup--installation)
+- [API Documentation](#api-documentation)
+- [Frontend Components](#frontend-components)
+- [DevOps & Deployment](#devops--deployment)
 
 ---
 
@@ -98,7 +98,7 @@ The repository follows a clear separation of concerns:
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone <repo-url>
 
 # Install Backend Dependencies
 cd giftlink-backend
